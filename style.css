@@ -1,0 +1,169 @@
+* {
+  margin:0px;
+  padding:0px;
+}
+.banner {
+  background-size: cover;
+  background-position: center;
+  height:200vh}
+
+
+.topNav {
+  position: relative;
+  height: 60px;
+  padding-top:35px;
+  font-family: Arial;
+
+}
+
+.leftSide {
+  list-style: none;
+  float: left;
+  margin-left: 50px;
+
+}
+
+.rightSide {
+  list-style: none;
+  float: right;
+  margin-right: 30px;
+
+}
+
+.menuItem {
+  display: inline-block;
+  margin: 0 20px;
+  font-size: 12px;
+  vertical-align: top;
+  color: #707070;
+  opacity: 0.75;
+}
+
+.main {
+  clear: left;
+  margin-top: 100px;
+}
+
+.mainImage {
+  margin: 0 auto;
+  width: 250px;
+}
+
+.mainImageContainer {
+  text-align: center;
+}
+
+.searchBox {
+  width: 400px;
+  border: 3px solid #1300F0;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: none;
+  z-index: 3;
+  height: 44px;
+  margin: 0 auto;
+}
+
+.searchIcon svg {
+  margin-top: 10px;
+  fill: #1300F0;
+  height: 20px;
+  width: 20px;
+  margin-left: 15px;
+}
+
+.textInput {
+  border: 0;
+  color:#1300F0;
+  outline: 0;
+  height: 20px;
+  margin-top: 8px;
+  vertical-align: middle;
+  width: calc(100% - 120px);
+}
+
+.buttonSearch {
+  width: 300px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.searchButton {
+  filter: drop-shadow(0 0 0.25rem #1300F0);
+
+  background-color: #1300F0;
+  border: 1px solid #1300F0;
+  border-radius: 10px;
+  color: white;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  height: 40px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+     transition: 300ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+
+.searchButton:hover {
+  filter: drop-shadow(0 0 0.55rem #1300F0);
+
+}
+
+.craiglist-logo {
+  width: 60%;
+  margin: auto;
+  display: block;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 100px
+}
+
+.item {
+  flex: 0 32%;
+  height: 350px;
+  border: 3px solid #1300F0;
+  background-color:white;
+  border-radius: 10px;
+
+  margin-bottom: 2%; /* (100-32*3)/2 */
+  padding-right:50px;
+  padding-left:50px;
+   transition: transform 300ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.item:hover {
+  transform: translateY(0) scale(1.1);
+}
+
+h3  {
+  font-family: Arial;
+  font-weight: lighters;
+  color:#1300F0;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 20px;
+
+}
+
+
+ul  {
+
+  list-style: none;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-row-gap: 20px;
+  grid-gap: 1rem;
+  font-size: 18px;
+
+}
+
+
