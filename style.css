@@ -5,7 +5,7 @@
 .banner {
   background-size: cover;
   background-position: center;
-  height:200vh}
+  height:200vh;}
 
 
 .topNav {
@@ -191,5 +191,60 @@ ul  {
   opacity: 1;
 }
 
+@media(max-width: 1200px) {
+  .banner {
+    height:200vh;
+  }
 
+}
+
+@media(max-width: 768px) {
+  .banner {
+    height:180vh;
+  }
+  .container {
+    padding-top: 50px;
+    justify-content: space-around;
+  }
+  .searchBox{
+    width:300px;
+  }
+
+  .item {
+
+    height:250px;
+    padding-right:20px;
+    padding-left:20px;
+    margin-top: 10px;
+    width:45vw;
+  }
+
+  .footer {
+    justify-content: center;
+    margin-top: 30px;
+  }
+
+  .leftSide{
+    margin:0px;
+    align-items: center;
+    float:none;
+  }
+
+  .rightSide{
+    float: none;
+    margin:0px;
+    align-items: center;
+  }
+
+  h3{
+    font-size: 24px !important;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+  }
+
+  a{
+    font-size: 12px;
+  }
+}
 
